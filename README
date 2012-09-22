@@ -1,19 +1,14 @@
-Net-Rexster-Client version 0.0.1
+Net-Rexster-Client version 0.0.2
 
-[ REPLACE THIS...
+Net::Rexster::Client (see under http://search.cpan.org/~shoheik/)
 
-  The README is used to introduce the module and provide instructions on
-  how to install the module, any machine dependencies it may have (for
-  example C compilers and installed libraries) and any other information
-  that should be understood before the module is installed.
+One of the graphDB problem is that each graphDB has dialect and 
+if you switch the database, you need to rewrite the code to adapt to the replaced db. 
+Rexster(https://github.com/tinkerpop/rexster/wiki) is REST server for graph DBs 
+which provides common interface for multiple graphDBs, so that the client of graphdb won't care which db is used. 
+It enables us to use the same query to get/create/delete the nodes/edges even the graphDB is changed.
 
-  A README file is required for CPAN modules since CPAN extracts the
-  README file from a module distribution so that people browsing the
-  archive can use it get an idea of the modules uses. It is usually a
-  good idea to provide version information here so that people can
-  decide whether fixes for the module are worth downloading.
-]
-
+Net::Rexster::Cient is for Perl + GraphDB user.
 
 INSTALLATION
 
