@@ -11,6 +11,7 @@ my $builder = Module::Build->new(
         'Test::More'    => 0,
         'Test::MockObject'    => 0,
         'Test::MockObject::Extends'    => 0,
+        'Test::Perl::Critic'       => 0,
         'Test::Fake::HTTPD'    => 0,
         'version'       => 0,
         'Moose'         => 0,
